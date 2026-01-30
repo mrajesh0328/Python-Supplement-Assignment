@@ -7,6 +7,6 @@ def compound_interest(principal, rate, time, n):
 
 p = 1000
 r = 5
-t = 2
+t = 1
 n = 4
 print(f"Compound Interest: {compound_interest(p, r, t, n)}")
