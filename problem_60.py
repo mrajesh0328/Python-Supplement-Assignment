@@ -10,3 +10,4 @@ def is_armstrong(n):
     return total == n
 
 print(f"Is 153 Armstrong? {is_armstrong(153)}")
+
