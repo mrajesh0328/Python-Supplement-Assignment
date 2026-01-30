@@ -8,7 +8,6 @@ def find_primes(n):
     for num in range(2, n + 1):
         is_prime = True
         i = 2
-        # only test divisors up to sqrt(num)
         while i * i <= num:
             if num % i == 0:
                 is_prime = False
