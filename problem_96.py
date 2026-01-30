@@ -10,5 +10,5 @@ def two_sum(nums, target):
         seen[nums[i]] = i
     return []
 
-numbers = [2, 7, 11, 15]
+numbers = [2, 7, 11, 16]
 print(f"Indices: {two_sum(numbers, 9)}")
