@@ -9,3 +9,4 @@ for char in text:
     else:
         uppercase += char
 print(f"Uppercase: {uppercase}")
+
