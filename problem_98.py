@@ -7,4 +7,4 @@ def is_power_of_two(n):
     return (n & (n - 1)) == 0
 
 print(f"Is 16 power of 2? {is_power_of_two(16)}")
-print(f"Is 18 power of 2? {is_power_of_two(18)}")
+print(f"Is 20 power of 2? {is_power_of_two(20)}")
