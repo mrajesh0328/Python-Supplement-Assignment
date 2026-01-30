@@ -6,3 +6,4 @@ def all_unique(lst):
 
 numbers = [1, 2, 3, 4, 5]
 print(f"All unique: {all_unique(numbers)}")
+
