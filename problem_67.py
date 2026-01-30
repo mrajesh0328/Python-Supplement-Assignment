@@ -6,6 +6,6 @@ def remove_nth(lst, n):
         return lst[:n] + lst[n+1:]
     return lst
 
-numbers = [1, 2, 3, 4, 5]
+numbers = [1, 2, 3, 4, 6]
 result = remove_nth(numbers, 2)
 print(f"After removing: {result}")
