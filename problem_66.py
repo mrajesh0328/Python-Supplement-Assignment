@@ -9,5 +9,5 @@ def intersection(list1, list2):
     return result
 
 l1 = [1, 2, 3, 4, 5]
-l2 = [3, 4, 5, 6, 7]
+l2 = [3, 4, 5, 6, 8]
 print(f"Intersection: {intersection(l1, l2)}")
