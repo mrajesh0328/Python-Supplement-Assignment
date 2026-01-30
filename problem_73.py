@@ -13,5 +13,5 @@ def max_difference(arr):
             min_val = arr[i]
     return max_diff
 
-numbers = [7, 1, 5, 3, 6, 4]
+numbers = [7, 1, 5, 3, 8, 4]
 print(f"Max difference: {max_difference(numbers)}")
