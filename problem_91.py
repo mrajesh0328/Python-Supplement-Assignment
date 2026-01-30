@@ -11,5 +11,5 @@ def selection_sort(arr):
         arr[i], arr[min_idx] = arr[min_idx], arr[i]
     return arr
 
-numbers = [64, 25, 12, 22, 11]
+numbers = [64, 25, 13, 22, 11]
 print(f"Sorted: {selection_sort(numbers)}")
