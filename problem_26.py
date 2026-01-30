@@ -1,9 +1,5 @@
-# Problem 26: Add item to a list
-# Find and fix the error
-
 def add_item(lst, item):
-    lst = lst + [item]
-    return lst
+    lst.append(item)
 
 my_list = [1, 2, 3]
 add_item(my_list, 4)
