@@ -6,4 +6,4 @@ def is_perfect_square(n):
     return sqrt == int(sqrt)
 
 print(f"Is 16 perfect square? {is_perfect_square(16)}")
-print(f"Is 15 perfect square? {is_perfect_square(15)}")
+print(f"Is 9 perfect square? {is_perfect_square(9)}")
