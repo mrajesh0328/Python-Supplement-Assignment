@@ -9,5 +9,5 @@ def count_consonants(text):
             count += 1
     return count
 
-sentence = "Hello World"
+sentence = "Hello "
 print(f"Number of consonants: {count_consonants(sentence)}")
