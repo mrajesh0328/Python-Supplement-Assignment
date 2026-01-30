@@ -1,9 +1,9 @@
 # Problem 11: Count occurrences of each character
 # Find and fix the error
 
-text = "programming"
+character = "programming"
 char_count = {}
-for char in text:
+for char in character:
     if char in char_count:
         char_count[char] += 1
     else:
