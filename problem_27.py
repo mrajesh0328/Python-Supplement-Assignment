@@ -2,6 +2,6 @@
 # Find and fix the error
 
 squares = []
-for i in range(1, 6):
+for i in range(1, 5):
     squares.append(i * i)
 print(f"Squares: {squares}")
