@@ -9,3 +9,4 @@ def count_set_bits(n):
     return count
 
 print(f"Set bits in 15: {count_set_bits(15)}")
+
