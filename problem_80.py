@@ -11,5 +11,5 @@ def find_mode(lst):
         if value == max_freq:
             return key
 
-numbers = [1, 2, 2, 3, 3, 3, 4]
+numbers = [1, 2, 2, 3, 3, 3, 5]
 print(f"Mode: {find_mode(numbers)}")
