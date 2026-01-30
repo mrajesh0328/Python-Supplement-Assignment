@@ -3,12 +3,17 @@
 
 def find_primes(n):
     primes = []
-    for num in range(2, n):
+    if n < 2:
+        return primes
+    for num in range(2, n + 1):
         is_prime = True
-        for i in range(2, num):
+        i = 2
+        # only test divisors up to sqrt(num)
+        while i * i <= num:
             if num % i == 0:
                 is_prime = False
                 break
+            i += 1
         if is_prime:
             primes.append(num)
     return primes
