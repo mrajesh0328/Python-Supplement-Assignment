@@ -9,7 +9,7 @@ def remove_element(nums, val):
             i += 1
     return i
 
-numbers = [3, 2, 2, 3, 4, 5]
+numbers = [3, 2, 2, 3, 4, 6]
 length = remove_element(numbers, 3)
 print(f"New length: {length}")
 print(f"Modified list: {numbers[:length]}")
