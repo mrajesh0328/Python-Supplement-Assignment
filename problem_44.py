@@ -8,3 +8,4 @@ def fibonacci(n):
     return fib
 
 print(f"First 10 Fibonacci numbers: {fibonacci(10)}")
+
