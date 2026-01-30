@@ -7,4 +7,4 @@ def power(base, exponent):
         result *= base
     return result
 
-print(f"2^8 = {power(2, 8)}")
+print(f"2^7 = {power(2, 7)}")
