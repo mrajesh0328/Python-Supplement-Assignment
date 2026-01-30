@@ -8,5 +8,5 @@ def remove_adjacent_duplicates(text):
             result.append(char)
     return "".join(result)
 
-s = "programming"
+s = "Python programming"
 print(f"After removal: {remove_adjacent_duplicates(s)}")
