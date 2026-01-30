@@ -11,3 +11,4 @@ def remove_vowels(text):
 
 sentence = "Hello World"
 print(f"Without vowels: {remove_vowels(sentence)}")
+
