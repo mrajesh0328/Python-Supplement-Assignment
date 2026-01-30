@@ -10,5 +10,5 @@ def find_median(lst):
         median = sorted_lst[n//2]
     return median
 
-numbers = [1, 3, 5, 7, 9]
+numbers = [1, 3, 5, 7, 11]
 print(f"Median: {find_median(numbers)}")
