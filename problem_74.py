@@ -2,6 +2,7 @@
 # Find and fix the error
 
 def first_non_repeating(text):
+    text = text.lower()
     char_count = {}
     for char in text:
         if char in char_count:
